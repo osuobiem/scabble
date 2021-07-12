@@ -1,0 +1,25 @@
+
+#main-panel {
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 0px 0 15px 3px #dadada;
+    margin-top: 30px;
+    background: #025a53;
+    padding-top: 10px;
+}
+
+#main-board {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    background: #039593;
+    border: solid 1px #c1fffd;
+}
+
+.cell {
+    border: solid 1px #c1fffd;
+    height: 6.35%;
+    width: 6.35%;
+    float: left;
+}
