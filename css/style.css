@@ -1,63 +1,119 @@
 
+/* Board Style */
 #main-panel {
-    height: 700px;
-    width: 700px;
-    margin: auto;
-    box-shadow: 0px 0 15px 3px #dadada;
-    margin-top: 30px;
-    background: #025a53;
-    padding-top: 10px;
+	height: 700px;
+	width: 700px;
+	margin: auto;
+	box-shadow: 0px 0 15px 3px #dadada;
+	margin-top: 30px;
+	background: #18756a;
+	padding-top: 10px;
 }
 
 #main-board {
-    height: 90%;
-    width: 90%;
-    margin: auto;
-    background: #039593;
-    border: solid 1px #c1fffd;
+	height: 90%;
+	width: 90%;
+	margin: auto;
+	background: #0fa88c;
+	border: solid 1px #c1fffd;
 }
 
+/* Mobile */
+@media only screen and (max-width: 700px) {
+	#main-panel {
+		width: 370px;
+		height: 370px;
+	}
+}
+/* Board Style */
+
+
+/* Cell Style */
 .cell {
-    border: solid 1px #c1fffd;
-    height: 6.35%;
-    width: 6.35%;
-    float: left;
-    box-shadow: inset 0 0 5px 1px #000;
+	border: solid 1px #c1fffd;
+	height: 6.35%;
+	width: 6.35%;
+	float: left;
+	box-shadow: inset 0 0 5px 1px #000;
 }
 
 #cell-113 {
-    background-color: #98774c;
-    background-image: url(../svg/mid-star.svg);
-    background-position: center;
-    background-size: contain;
-    box-shadow: inset 0 0 2px 1px #98774c
+	background-color: #98774c;
+	background-image: url(../svg/mid.svg);
+	background-position: center;
+	background-size: contain;
+	box-shadow: inset 0 0 2px 1px #98774c
 }
 
+.double-letter {
+	background-color: #7ebac8;
+	background-image: url(../svg/dl.svg);
+	background-position: center;
+	background-size: contain;
+	box-shadow: inset 0 0 2px 1px #7ebac8;
+}
+
+.triple-letter {
+	background-color: #55bcdb;
+	background-image: url(../svg/tl.svg);
+	background-position: center;
+	background-size: contain;
+	box-shadow: inset 0 0 2px 1px #55bcdb;
+}
+
+.double-word {
+	background-color: #98774c;
+	background-image: url(../svg/dw.svg);
+	background-position: center;
+	background-size: contain;
+	box-shadow: inset 0 0 2px 1px #98774c
+}
+
+.triple-word {
+	background-color: #e12d29;
+	background-image: url(../svg/tw.svg);
+	background-position: center;
+	background-size: contain;
+	box-shadow: inset 0 0 2px 1px #e12d29;
+}
+
+/* Mobile */
+@media only screen and (max-width: 700px) {
+	.cell {
+		height: 6.067%;
+   		width: 6.067%;
+	}
+}
+/* Cell Style */
+
+
+/* Tile Style */
 .tile {
-    background-color: #000000 !important;
-    background-image: url(../svg/tile.svg) !important;
-    background-position: center !important;
-    background-size: contain !important;
-    box-shadow: inset 0 0 2px 1px #ab9b8a !important;
-    text-align: center;
+	background-color: #000000 !important;
+	background-image: url(../svg/tile.svg) !important;
+	background-position: center !important;
+	background-size: contain !important;
+	box-shadow: inset 0 0 2px 1px #ab9b8a !important;
+	text-align: center;
 }
 
 .tile:hover {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .letter {
-    font-size: 28px;
-    font-family: Roboto;
-    color: #024842;
+	font-size: 28px;
+	font-family: Roboto;
+	color: #024842;
 }
 
 .point {
-    font-size: 10px;
-    position: relative;
-    top: 6px;
-    right: -2px;
-    font-weight: 800;
-    font-family: 'Roboto';
-    color: #024842;
+	font-size: 10px;
+	position: relative;
+	top: 6px;
+	right: -2px;
+	font-weight: 800;
+	font-family: 'Roboto';
+	color: #024842;
 }
+/* Tile Style */
