@@ -27,8 +27,37 @@
 
 #cell-113 {
     background-color: #98774c;
-    background-image: url('../svg/mid-star.svg');
+    background-image: url(../svg/mid-star.svg);
     background-position: center;
     background-size: contain;
     box-shadow: inset 0 0 2px 1px #98774c
+}
+
+.tile {
+    background-color: #000000 !important;
+    background-image: url(../svg/tile.svg) !important;
+    background-position: center !important;
+    background-size: contain !important;
+    box-shadow: inset 0 0 2px 1px #ab9b8a !important;
+    text-align: center;
+}
+
+.tile:hover {
+    cursor: pointer;
+}
+
+.letter {
+    font-size: 28px;
+    font-family: Roboto;
+    color: #024842;
+}
+
+.point {
+    font-size: 10px;
+    position: relative;
+    top: 6px;
+    right: -2px;
+    font-weight: 800;
+    font-family: 'Roboto';
+    color: #024842;
 }
