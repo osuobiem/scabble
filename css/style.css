@@ -22,4 +22,13 @@
     height: 6.35%;
     width: 6.35%;
     float: left;
+    box-shadow: inset 0 0 5px 1px #000;
+}
+
+#cell-113 {
+    background-color: #c4a06d;
+    background-image: url('../svg/mid-star.svg');
+    background-position: center;
+    background-size: contain;
+    box-shadow: inset 0 0 2px 1px #000;
 }
