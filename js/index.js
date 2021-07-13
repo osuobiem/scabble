@@ -21,10 +21,10 @@ function makeCells() {
 	}
 
 	// Add test tiles
-	$('#cell-87').addClass('tile').append('<span class="letter">T</span><span class="point">6</span>')
+	$('#cell-87').addClass('tile').append('<span class="letter">T</span><span class="point">1</span>')
 	$('#cell-88').addClass('tile').append('<span class="letter">E</span><span class="point">1</span>')
 	$('#cell-89').addClass('tile').append('<span class="letter">S</span><span class="point">1</span>')
-	$('#cell-90').addClass('tile').append('<span class="letter">T</span><span class="point">6</span>')
+	$('#cell-90').addClass('tile').append('<span class="letter">T</span><span class="point">1</span>')
 }
 
 /**
