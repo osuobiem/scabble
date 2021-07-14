@@ -108,13 +108,16 @@
 	font-family: Roboto;
 	color: #024842;
 	font-weight: 800;
+	position: relative;
+    top: 3px;
+	left: 1px;
 }
 
 .point {
 	font-size: 10px;
 	position: relative;
 	top: 6px;
-	right: -2px;
+	right: -3px;
 	font-weight: 800;
 	font-family: 'Roboto';
 	color: #024842;
@@ -131,6 +134,8 @@
 	.letter {
 		font-size: 14px;
 		font-weight: 900;
+		top: 1px;
+		left: 0px;
 	}
 
 	.point {
